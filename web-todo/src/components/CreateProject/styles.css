@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 20rem;
+  max-height: 20rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 4rem;
+  background-color: #eee;
+}
+
+.container .button {
+  background: #02bcdc;
+  color: #fff;
+  width: 100%;
+}
+
+.container .button:hover {
+  background: #00a8c5;
+}
